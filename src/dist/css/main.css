@@ -17,11 +17,11 @@
   position: fixed;
   padding: 15px 0 15px 0;
   width: 100%;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   background-color: transparent;
   z-index: 9999;
   animation-name: fadeInDown;
@@ -30,7 +30,8 @@
 }
 
 .navbar.color-active {
-  background: linear-gradient(to right, #4b79a1, #283e51); /* Gradasi warna saat di-scroll */
+  background: linear-gradient(to right, #1e86eee8, #023561e8); /* Gradasi w
+  arna saat di-scroll */
   padding: 10px 0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih mencolok */
 }
@@ -128,29 +129,65 @@
 /* Home Page start */
 header {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-    url('../../assets/img/bgheaderbiru.jpeg');
+  background-image: linear-gradient(to bottom right, #0d47a1, #1976d2);
   color: #fff;
-  padding: 60px 0;
+  padding: 100px 0;
   height: 700px;
   background-size: cover;
-  /* Adjust the padding as needed */
+  display: flex;
+  align-items: center;
+}
+
+.header-box h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffeb3b;
+  text-transform: uppercase;
+}
+
+.header-box h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header-box p {
+  font-size: 1.1rem;
+  color: #e0f7fa;
+  line-height: 1.6;
 }
 
 header .container .header-box .col .text-container {
-  max-width: 500px;
-  position: fixed;
-  /* Adjust the max-width as needed */
+  max-width: 550px;
+  z-index: 10;
 }
 
 header .container .header-box .image-hero img {
-  height: 500px;
-  width: 500px;
-  margin-left: 150px;
-  margin-bottom: 50px;
+  width: 550px;
+  height: 550px;
+  transition: transform 0.3s ease; /* Tambahkan transisi untuk efek halus */
 }
 
-.btn-navbar .btn {
+/* perbesar gambar ketika cursor diarahkan */
+header .container .image-hero img:hover {
+  transform: scale(1.05);
+}
+
+header .container .btn-primary {
+  background-color: #ff8f00;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+
+header .container .btn-primary:hover {
+  background-color: #ff6f00;
+  transform: translateY(-3px);
+}
+
+header .container .btn-navbar .btn {
   color: #fff;
 }
 

@@ -21,28 +21,28 @@ const HomePage = () => {
     <div className="homepage ">
       <header className=" d-flex align-items-center overflow-hidden">
         <Container>
-          <Row className='header-box d-flex align-items-center pt-lg-5'>
-            <Col lg="6">
-              <div className='text-container'>
-                <h3 className='mb-1 animate__animated animate__fadeInUp animate__delay-1s mt-1'>
-                  Broom, Brush, Mop Product
-                </h3>
-                <h1 className='mb-1 animate__animated animate__fadeInUp animate__delay-1s mt-1'>
-                  NAGOYA
-                </h1>
-                <h6 className='mb-4 animate__animated animate__fadeInUp animate__delay-1s mt-1'>
-                Kami selalu berusaha memberikan yang terbaik untuk pelanggan, karena kami sangat memperhatikan kualitas pelayanan, kualitas produk dan kepuasan pelanggan.
-                </h6>
-                <button className='btn btn-outline-light btn-lg rounded-5 me-2 animate__animated animate__backInUp animate__delay-1s w-25 fw-bold' onClick={() => navigate("/kelas")}>
-                  see all
-                </button>
-              </div>
+          <Row className="header-box d-flex align-items-center pt-lg-5">
+            <Col lg="6" className="text-container">
+              <h3 className="mb-1 animate__animated animate__fadeInDown animate__delay-0.5s">
+                Broom, Brush, Mop Product
+              </h3>
+              <h1 className="mb-2 animate__animated animate__fadeInDown animate__delay-0.7s">
+                NAGOYA
+              </h1>
+              <p className="mb-4 animate__animated animate__fadeInDown animate__delay-0.9s">
+                Kami selalu berusaha memberikan yang terbaik untuk pelanggan, karena kami sangat
+                memperhatikan kualitas pelayanan, kualitas produk, dan kepuasan pelanggan.
+              </p>
+              <button className="btn btn-primary btn-lg rounded-pill me-2 animate__animated animate__fadeInUp animate__delay-1.2s fw-bold" onClick={() => navigate("/kelas")}>
+                See All
+              </button>
             </Col>
-            <Col lg="6" className='image-hero'>
-              <img src={HeroImage} alt="hero-img" className='animate__animated animate__lightSpeedInRight' />
+            <Col lg="6" className="image-hero d-flex justify-content-center">
+              <img src={HeroImage} alt="hero-img" className="animate__animated animate__zoomIn animate__delay-1s img-fluid" />
             </Col>
           </Row>
         </Container>
+
       </header>
       <div className="service w-100 min-vh-100">
         <Container>
