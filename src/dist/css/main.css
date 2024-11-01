@@ -17,11 +17,11 @@
   position: fixed;
   padding: 15px 0 15px 0;
   width: 100%;
-  transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   background-color: transparent;
   z-index: 9999;
   animation-name: fadeInDown;
@@ -29,45 +29,44 @@
   box-shadow: none;
 }
 
-/* Style untuk navbar saat di-scroll */
 .navbar.color-active {
-  background-color: #ffffffda; /* Warna putih saat di-scroll */
+  background: linear-gradient(to right, #4b79a1, #283e51); /* Gradasi warna saat di-scroll */
   padding: 10px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut di bawah navbar */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih mencolok */
 }
 
-/* Style logo */
 .navbar .logo-navbar {
-  color: var(--primary-color);
-  font-size: 1.8rem;
+  color: #ffffff;
+  font-size: 2rem;
   transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif; /* Font yang lebih modern */
 }
 
 /* Style untuk nav-link */
 .navbar .nav-link a {
-  padding: 8px 15px;
-  font-weight: 550;
+  padding: 8px 20px;
+  font-weight: 600;
   font-size: 16px;
   text-decoration: none;
-  color: var(--primary-color); /* Warna sebelum di-scroll */
+  color: #ffffff; /* Warna putih untuk teks navbar */
   transition: color 0.3s ease, border-bottom 0.3s ease;
-  border-bottom: 2px solid transparent; /* Garis bawah transparan */
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase; /* Huruf kapital untuk tampilan lebih menonjol */
 }
 
 /* Warna teks saat di-scroll */
 .navbar.color-active .nav-link a {
-  color: var(--color-text2); /* Abu-abu lembut saat di-scroll */
+  color: #e0e0e0;
 }
 
 .navbar .nav-link a:hover {
-  color: var(--secondary-color); /* Warna saat hover */
+  color: #ff9800; /* Warna oranye cerah saat hover */
+  border-bottom: 2px solid #ff9800; /* Garis bawah oranye saat hover */
 }
 
-/* Style untuk link aktif */
 .navbar .nav-link .active {
-  color: #4a5c5e; /* Warna abu-abu lebih gelap untuk link aktif */
-  border-bottom: 2px solid rgba(108, 117, 125, 0.5); /* Garis bawah abu-abu transparan untuk link aktif */
-  transition: color 0.5s, border-bottom 0.3s;
+  color: #ff9800; /* Warna oranye untuk link aktif */
+  border-bottom: 2px solid #ff9800; /* Garis bawah oranye untuk link aktif */
 }
 
 .navbar .nav-link .active:hover {
