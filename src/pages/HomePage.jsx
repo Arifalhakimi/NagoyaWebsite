@@ -30,10 +30,10 @@ const HomePage = () => {
                 NAGOYA
               </h1>
               <p className="mb-4 animate__animated animate__fadeInDown animate__delay-0.9s">
-                Kami selalu berusaha memberikan yang terbaik untuk pelanggan, karena kami sangat
+                Kami selalu berusaha memberikan yang terbaik untuk pelangga n, karena kami sangat
                 memperhatikan kualitas pelayanan, kualitas produk, dan kepuasan pelanggan.
               </p>
-              <button className="btn btn-primary btn-lg rounded-pill me-2 animate__animated animate__fadeInUp animate__delay-1.2s fw-bold" onClick={() => navigate("/kelas")}>
+              <button className="btn btn-primary btn-lg rounded-pill me-2 animate__animated animate__fadeInUp animate__delay-1.2s fw-bold" onClick={() => navigate("")}>
                 See All
               </button>
             </Col>
@@ -44,7 +44,7 @@ const HomePage = () => {
         </Container>
 
       </header>
-      <div className="service w-100 min-vh-100">
+      {/* <div className="service w-100 min-vh-100">
         <Container>
           <Row>
             <Col>
@@ -91,10 +91,10 @@ const HomePage = () => {
           </Row>
 
         </Container>
-      </div>
+      </div> */}
       <div className='home-page-component'>
         <AboutComponent />
-        <TestiComponent />
+        {/* <TestiComponent /> */}
       </div>
     </div>
   )

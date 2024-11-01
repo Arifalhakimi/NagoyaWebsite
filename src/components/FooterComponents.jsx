@@ -6,18 +6,18 @@ const FooterComponents = () => {
             <Container>
                 <Row className='d-flex justify-content-between'>
                     <Col lg="5">
-                        <h3 className='fw-bold'>Bengkel.in</h3>
-                        <p className='desc'>Bengkel.in adalah platform berbasis website yang menyediakan layanan perbaikan pada kendaraan.</p>
+                        <h3 className='fw-bold'>Nagoya</h3>
+                        <p className='desc'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veniam perspiciatis. Architecto officiis velit deserunt aperiam sed rerum dicta ratione hic corporis, placeat cum porro suscipit possimus vero necessitatibus! Minus!</p>
                         <div className='no mb-1 mt-4'>
                             <Link className='text-decoration-none'>
                                 <i className='fa-brands fa-whatsapp'></i>
-                                <p className='m-0'>+62 896 1234 4321</p>
+                                <p className='m-0'>+62 896 9000 9999</p>
                             </Link>
                         </div>
                         <div className='mail'>
                             <Link className='text-decoration-none'>
                                 <i className='fa-regular fa-envelope'></i>
-                                <p className='m-0'>Email : Bengkelin@gmail.com</p>
+                                <p className='m-0'>Email : N@gmail.com</p>
                             </Link>
                         </div>
                     </Col>
@@ -43,7 +43,7 @@ const FooterComponents = () => {
                         </div>
                     </Col>
                 </Row>
-                
+
             </Container>
         </div>
     )

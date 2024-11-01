@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ImageAbout from "../assets/img/frame28.png";
+import ImageAbout from "../assets/img/sapu.jpg";
 const AboutComponent = () => {
     const [showFullText, setShowFullText] = useState(false);
 
@@ -11,30 +11,41 @@ const AboutComponent = () => {
     return (
         <div className="about-component">
             <Container>
-                <Row>
+                {/* <Row>
                     <Col>
                         <h1 className="fw-bold ">Tentang Kami</h1>
                     </Col>
-                </Row>
-                <Row className="my-4">
+                </Row> */}
+                <Row className="my-4 mx-2">
                     <Col lg={4} className="image-about">
                         <img src={ImageAbout} alt="About" className="img-fluid" data-aos="fade-up" data-aos-duration="1000" />
                     </Col>
                     <Col lg={8} className='text-about'>
                         <h1 className='judul-text fw-bold'>
-                            Panti Asuhan Masjid Gelora Indah
+                            Membawa keseimbangan alam ke lingkungan Anda.
                         </h1>
                         <p className={`about-text ${showFullText ? 'full-text' : ''}`} data-aos="fade-up" data-aos-duration="1000" >
-                        Merupakan panti asuhan yang berada di Kabupaten Banyumas. Panti asuhan ini merawat dan mendidik anak-anak yatim piatu serta anak-anak terlantan. Panti Asuhan Anak Yatim Piatu & Terlantar Masjid Gelora Indah memenuhi kebutuhan anak-anak yang dirawatnya mulai dari makanan hingga sekolahnya.
-                            {showFullText ? (
-                                <h1 className='animate__animated animate__hinge animate__delay-1s'>KENA PRANK :-) </h1>
-                            ) : null}
+                            Kami senantiasa berinovasi untuk menciptakan solusi kebersihan yang lebih baik, dengan mengutamakan kualitas produk, keberlanjutan lingkungan, serta kepuasan pelanggan.
                         </p>
-                        {!showFullText && (
-                            <button className="btn btn-link  " onClick={toggleFullText} data-aos="fade-up" data-aos-duration="1000">
-                                Baca Selengkapnya
-                            </button>
-                        )}
+                        <button className="btn btn-outline-primary btn-lg rounded-pill mr-8 me-2 animate__animated animate__fadeInUp animate__delay-1.2s fw-bold" >
+                            See All
+                        </button>
+                    </Col>
+                </Row>
+                <Row className="my-5 mx-2">
+                    <Col lg={8} className='text-about'>
+                        <h1 className='judul-text fw-bold'>
+                            Membawa keseimbangan alam ke lingkungan Anda.
+                        </h1>
+                        <p className={`about-text ${showFullText ? 'full-text' : ''}`} data-aos="fade-up" data-aos-duration="1000" >
+                            Kami senantiasa berinovasi untuk menciptakan solusi kebersihan yang lebih baik, dengan mengutamakan kualitas produk, keberlanjutan lingkungan, serta kepuasan pelanggan.
+                        </p>
+                        <button className="btn btn-outline-primary btn-lg rounded-pill mr-8 me-2 animate__animated animate__fadeInUp animate__delay-1.2s fw-bold" >
+                            See All
+                        </button>
+                    </Col>
+                    <Col lg={4} className="image-about">
+                        <img src={ImageAbout} alt="About" className="img-fluid" data-aos="fade-up" data-aos-duration="1000" />
                     </Col>
                 </Row>
             </Container>

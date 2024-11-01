@@ -44,12 +44,12 @@ const NavbarComponent = () => {
               ))}
             </Nav>
             <div className="btn-navbar text-center">
-              <div className="btn" onClick={() => navigate("/login")}>
+              <div className="btn" onClick={() => navigate("")}>
                 Masuk
               </div>
             </div>
             <div className="btn-navbar text-center">
-              <div className="btn" onClick={() => navigate("/register")}>
+              <div className="btn" onClick={() => navigate("")}>
                 Daftar
               </div>
             </div>

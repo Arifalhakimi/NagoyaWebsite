@@ -811,6 +811,11 @@ header .container .btn-navbar .btn {
 .about-component .image-about img {
   width: 350px;
   height: 350px;
+  border-radius: 20px;
+}
+
+.about-component .btn{
+  margin-left: 30px;
 }
 
 
