@@ -12,6 +12,7 @@
   --navbar-color-text-active: #ffffff;
 }
 
+
 /* Navbar start */
 .navbar {
   position: fixed;
@@ -125,6 +126,66 @@
 }
 
 /* Navbar end */
+
+
+/* penyebaran start */
+.penyebaran-page {
+  background-color: #c5eefaa9;
+  /* Ganti dengan warna yang Anda inginkan */
+  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
+  padding: 50px 0;
+}
+
+.penyebaran-page h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.penyebaran-page .garis {
+  width: 50px;
+  height: 3px;
+}
+
+.penyebaran-page img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.penyebaran-page .btn {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.penyebaran-page .text-body {
+  border-bottom: 2px solid #b92929;
+}
+
+.penyebaran-page .fas {
+  color: #dc3545;
+  /* Bootstrap danger color */
+}
+
+.penyebaran-page h1 {
+  color: #222;
+}
+
+.icon-and-number {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-and-number i {
+  font-size: 2.5rem;
+}
+
+.icon-and-number h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+/* penyebaran end */
 
 /* Home Page start */
 header {

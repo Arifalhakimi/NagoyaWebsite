@@ -9,9 +9,10 @@ import 'swiper/css/pagination';
 
 // faqcompinent
 import AboutComponent from '../components/AboutComponent';
-import { kelasTerbaru, } from "../data/index";
+import PenyebaranComponent from '../components/PenyebaranComponent';
+// import { kelasTerbaru, } from "../data/index";
 import { useNavigate } from "react-router-dom";
-import TestiComponent from '../components/TestiComponent';
+// import TestiComponent from '../components/TestiComponent';
 
 
 const HomePage = () => {
@@ -94,6 +95,8 @@ const HomePage = () => {
       </div> */}
       <div className='home-page-component'>
         <AboutComponent />
+        <PenyebaranComponent />
+
         {/* <TestiComponent /> */}
       </div>
     </div>
