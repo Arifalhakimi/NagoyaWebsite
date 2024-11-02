@@ -1,6 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import PenyebaranImage from "../assets/img/penyebaran.png";
 
+//icon
+import { BsFillTruckFrontFill } from "react-icons/bs";
+
 const PenyebaranComponent = () => {
     return (
         <div className="penyebaran-page ">
@@ -43,7 +46,9 @@ const PenyebaranComponent = () => {
                     {Array.from({ length: 3 }).map((_, index) => (
                         <Col lg={4} key={index} className="text-center">
                             <div className="d-flex align-items-center justify-content-center mb-3">
-                                <i className="fas fa-motorcycle display-3 text-danger"></i>
+                                <i className=" display-3 text-danger">
+                                <BsFillTruckFrontFill />
+                                </i>
                                 <h1 className="ms-3 display-5 fw-bold">41</h1>
                             </div>
                             <h5>Cities Available Kleaner Products</h5>

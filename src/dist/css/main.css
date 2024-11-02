@@ -31,17 +31,20 @@
 }
 
 .navbar.color-active {
-  background: linear-gradient(to right, #1e86eee8, #023561e8); /* Gradasi w
+  background: linear-gradient(to right, #1e86eee8, #023561e8);
+  /* Gradasi w
   arna saat di-scroll */
   padding: 10px 0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih mencolok */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* Bayangan lebih mencolok */
 }
 
 .navbar .logo-navbar {
   color: #ffffff;
   font-size: 2rem;
   transition: color 0.3s ease;
-  font-family: 'Poppins', sans-serif; /* Font yang lebih modern */
+  font-family: 'Poppins', sans-serif;
+  /* Font yang lebih modern */
 }
 
 /* Style untuk nav-link */
@@ -50,10 +53,12 @@
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
-  color: #ffffff; /* Warna putih untuk teks navbar */
+  color: #ffffff;
+  /* Warna putih untuk teks navbar */
   transition: color 0.3s ease, border-bottom 0.3s ease;
   border-bottom: 2px solid transparent;
-  text-transform: uppercase; /* Huruf kapital untuk tampilan lebih menonjol */
+  text-transform: uppercase;
+  /* Huruf kapital untuk tampilan lebih menonjol */
 }
 
 /* Warna teks saat di-scroll */
@@ -62,18 +67,24 @@
 }
 
 .navbar .nav-link a:hover {
-  color: #ff9800; /* Warna oranye cerah saat hover */
-  border-bottom: 2px solid #ff9800; /* Garis bawah oranye saat hover */
+  color: #ff9800;
+  /* Warna oranye cerah saat hover */
+  border-bottom: 2px solid #ff9800;
+  /* Garis bawah oranye saat hover */
 }
 
 .navbar .nav-link .active {
-  color: #ff9800; /* Warna oranye untuk link aktif */
-  border-bottom: 2px solid #ff9800; /* Garis bawah oranye untuk link aktif */
+  color: #ff9800;
+  /* Warna oranye untuk link aktif */
+  border-bottom: 2px solid #ff9800;
+  /* Garis bawah oranye untuk link aktif */
 }
 
 .navbar .nav-link .active:hover {
-  color: #4a5c5e; /* Warna tetap untuk link aktif saat hover */
-  border-bottom: 2px solid rgba(108, 117, 125, 0.7); /* Garis bawah lebih tebal saat hover */
+  color: #4a5c5e;
+  /* Warna tetap untuk link aktif saat hover */
+  border-bottom: 2px solid rgba(108, 117, 125, 0.7);
+  /* Garis bawah lebih tebal saat hover */
 }
 
 /* Style khusus ikon mitra */
@@ -93,7 +104,8 @@
 }
 
 .icon-mitra .icon-navbar-mitra i:hover {
-  color: var(--secondary-color); /* Warna berubah saat di-hover */
+  color: var(--secondary-color);
+  /* Warna berubah saat di-hover */
 }
 
 .icon-mitra .icon-navbar-mitra p {
@@ -101,7 +113,8 @@
   margin-left: 10px;
   font-size: 17px;
   font-weight: 600;
-  color: #7b8a8b; /* Abu-abu untuk teks di ikon mitra */
+  color: #7b8a8b;
+  /* Abu-abu untuk teks di ikon mitra */
 }
 
 /* Style dropdown */
@@ -117,7 +130,8 @@
 }
 
 .navbar .dropdown:hover {
-  background-color: rgba(220, 53, 70, 0.1); /* Efek transparan saat di-hover */
+  background-color: rgba(220, 53, 70, 0.1);
+  /* Efek transparan saat di-hover */
 }
 
 .navbar .dropdown i {
@@ -185,7 +199,44 @@
   font-weight: bold;
   margin: 0;
 }
+
 /* penyebaran end */
+
+/* varian start */
+.varian-page {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.varian-page .icon-container {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.varian-page .icon-container:hover {
+  color: #097de9;
+  transform: scale(1.1);
+}
+
+.varian-page .icon-container i {
+  color: #333;
+}
+
+.varian-page .icon-container h5 {
+  margin-top: 10px;
+}
+
+.varian-page .garis {
+  width: 80%;
+  height: 2px;
+  background-color: #ddd;
+  margin-top: 10px;
+}
+
+/* varian end */
 
 /* Home Page start */
 header {
@@ -227,7 +278,8 @@ header .container .header-box .col .text-container {
 header .container .header-box .image-hero img {
   width: 550px;
   height: 550px;
-  transition: transform 0.3s ease; /* Tambahkan transisi untuk efek halus */
+  transition: transform 0.3s ease;
+  /* Tambahkan transisi untuk efek halus */
 }
 
 /* perbesar gambar ketika cursor diarahkan */
@@ -875,7 +927,7 @@ header .container .btn-navbar .btn {
   border-radius: 20px;
 }
 
-.about-component .btn{
+.about-component .btn {
   margin-left: 30px;
 }
 
@@ -1393,37 +1445,39 @@ header .container .btn-navbar .btn {
   margin-left: 230px;
 }
 
-.data-pesanan .content .button{
+.data-pesanan .content .button {
   display: flex;
   margin-bottom: 10px;
   margin-left: 30px;
 }
 
-.data-pesanan .content .form{
+.data-pesanan .content .form {
   padding-bottom: 20px;
 }
 
-.data-pesanan .content .form-data{
+.data-pesanan .content .form-data {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
-.data-pesanan .content .form-data .name{
+
+.data-pesanan .content .form-data .name {
   margin-left: 30px;
 }
 
-.data-pesanan .content .form-data  .form-control{
+.data-pesanan .content .form-data .form-control {
   width: 1000px;
 }
 
 /* Data pesanan end */
 
 /* data altivity start */
-.data-activity{
+.data-activity {
   margin-left: 250px;
   padding-top: 100px;
 }
+
 .data-activity .content .form .form-data {
   display: flex;
   margin-bottom: 10px;
@@ -1581,19 +1635,19 @@ header .container .btn-navbar .btn {
 
 }
 
-.login-page form .text-judul{
+.login-page form .text-judul {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 15px;
 }
 
-.login-page form .text-judul h1{
+.login-page form .text-judul h1 {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
 
-.login-page form .text-judul p{
+.login-page form .text-judul p {
   margin-left: 15px;
 }
 
@@ -1649,14 +1703,22 @@ header .container .btn-navbar .btn {
 }
 
 .login-page form .icon {
-  background-color: white;   /* Latar belakang putih */
-  width: 80%;                /* Lebar icon */
-  border-radius: 5px;        /* Membulatkan sudut */
-  margin-left: 52px;         /* Jarak dari kiri */
-  height: 50px;              /* Tinggi icon */
-  border: 1px solid rgba(0, 0, 0, 0.397);   /* Border hitam dengan ketebalan 2px */
-  display: flex;             /* Menggunakan flexbox untuk perataan */
-  align-items: center;       /* Menyelaraskan konten secara vertikal */
+  background-color: white;
+  /* Latar belakang putih */
+  width: 80%;
+  /* Lebar icon */
+  border-radius: 5px;
+  /* Membulatkan sudut */
+  margin-left: 52px;
+  /* Jarak dari kiri */
+  height: 50px;
+  /* Tinggi icon */
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  /* Border hitam dengan ketebalan 2px */
+  display: flex;
+  /* Menggunakan flexbox untuk perataan */
+  align-items: center;
+  /* Menyelaraskan konten secara vertikal */
   padding-left: 10px;
 }
 
@@ -1726,15 +1788,23 @@ header .container .btn-navbar .btn {
   cursor: pointer;
 }
 
-.register-page form .icon{
-  background-color: white;   /* Latar belakang putih */
-  width: 80%;                /* Lebar icon */
-  border-radius: 5px;        /* Membulatkan sudut */
-  margin-left: 52px;         /* Jarak dari kiri */
-  height: 50px;              /* Tinggi icon */
-  border: 1px solid rgba(0, 0, 0, 0.397);   /* Border hitam dengan ketebalan 2px */
-  display: flex;             /* Menggunakan flexbox untuk perataan */
-  align-items: center;       /* Menyelaraskan konten secara vertikal */
+.register-page form .icon {
+  background-color: white;
+  /* Latar belakang putih */
+  width: 80%;
+  /* Lebar icon */
+  border-radius: 5px;
+  /* Membulatkan sudut */
+  margin-left: 52px;
+  /* Jarak dari kiri */
+  height: 50px;
+  /* Tinggi icon */
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  /* Border hitam dengan ketebalan 2px */
+  display: flex;
+  /* Menggunakan flexbox untuk perataan */
+  align-items: center;
+  /* Menyelaraskan konten secara vertikal */
   padding-left: 10px;
 }
 
@@ -1747,10 +1817,10 @@ header .container .btn-navbar .btn {
 /* register end */
 
 /* DetailProgram start*/
-.detailProgramPage{
-background-image: url(../../assets/img/wave.svg);
-background-repeat: no-repeat;
-background-position: center -30px;
+.detailProgramPage {
+  background-image: url(../../assets/img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: center -30px;
 }
 
 .detailProgramPage .detail {
@@ -1759,19 +1829,20 @@ background-position: center -30px;
   justify-content: center;
 }
 
-.detailProgramPage .detail .image{
+.detailProgramPage .detail .image {
   margin-top: 100px;
   padding-bottom: 40px;
 }
 
-.detailProgramPage .detail .image img{
+.detailProgramPage .detail .image img {
   max-width: 450px;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  /* Efek bayangan */
 }
 
-.detailProgramPage .detail .text{
+.detailProgramPage .detail .text {
   margin-top: 150px;
 }
 
@@ -1805,7 +1876,7 @@ background-position: center -30px;
   line-height: 1.6;
 }
 
-.detailProgramPage .detail .donatur h3{
+.detailProgramPage .detail .donatur h3 {
   font-size: 1.75rem;
   font-weight: bold;
   color: #333;
@@ -1815,27 +1886,32 @@ background-position: center -30px;
   background-color: #f8f9fa;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  /* Efek bayangan */
 }
 
 .detailProgramPage .detail .donatur .daftar-donatur-container .donatur-item {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ddd; /* Garis bawah untuk memisahkan donatur */
+  border-bottom: 1px solid #ddd;
+  /* Garis bawah untuk memisahkan donatur */
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
 .detailProgramPage .detail .donatur .daftar-donatur-container .donatur-item:last-child {
-  border-bottom: none; /* Menghapus garis bawah pada item terakhir */
+  border-bottom: none;
+  /* Menghapus garis bawah pada item terakhir */
 }
 
 .detailProgramPage .detail .donatur .daftar-donatur-container .donatur-item .donatur-img {
   width: 50px;
   height: 50px;
   object-fit: cover;
-  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan pada gambar */
+  border-radius: 50%;
+  /* Membuat gambar menjadi lingkaran */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  /* Efek bayangan pada gambar */
 }
 
 .detailProgramPage .detail .donatur .daftar-donatur-container .donatur-item .daftar-nama p {
@@ -1843,46 +1919,48 @@ background-position: center -30px;
   font-size: 1rem;
 }
 
-.detailProgramPage .detail .donatur .daftar-donatur-container .donatur-item  .daftar-nama .fw-bold {
+.detailProgramPage .detail .donatur .daftar-donatur-container .donatur-item .daftar-nama .fw-bold {
   font-size: 1.1rem;
 }
 
 .detailProgramPage .detail .donatur .daftar-donatur-container .donatur-item .tanggal p {
   margin: 0;
   font-size: 0.875rem;
-  color: #888; /* Warna teks yang lebih lembut */
+  color: #888;
+  /* Warna teks yang lebih lembut */
 }
 
 /* DetailProgram end*/
 
 /* donasi Page */
 
-.donasiPage .donasi{
+.donasiPage .donasi {
   background-image: url(../../assets/img/wave.svg);
   background-repeat: no-repeat;
 }
 
-.donasiPage .donasi .image{
+.donasiPage .donasi .image {
   width: 100%;
   height: auto;
   padding-top: 100px;
 }
 
-.donasiPage .donasi .image img{
+.donasiPage .donasi .image img {
   width: 100%;
   height: 350px;
   border-radius: 50px;
 }
+
 .donasiPage .donasi .nominal .angka {
   justify-content: center;
   background-color: #f5f5f5;
 }
 
-.donasiPage .donasi .nominal .nominal-donasi:hover{
+.donasiPage .donasi .nominal .nominal-donasi:hover {
   transform: 1s;
 }
 
-.donasiPage .donasi .nominal .nominal-donasi{
+.donasiPage .donasi .nominal .nominal-donasi {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1890,39 +1968,39 @@ background-position: center -30px;
   transition: transform 0.2s;
 }
 
-.donasiPage .donasi .nominal .angka .angka-donasi{
+.donasiPage .donasi .nominal .angka .angka-donasi {
   width: 300px;
   height: 40px;
   border: 1px solid;
   color: #36363686;
   border-radius: 5px;
 }
-.donasiPage .donasi .nominal .angka .angka-donasi p{
+
+.donasiPage .donasi .nominal .angka .angka-donasi p {
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   padding-top: 8px;
   font-size: 18px;
 }
 
-.donasiPage .donasi .nominal .angka .angka-donasi p:hover{
+.donasiPage .donasi .nominal .angka .angka-donasi p:hover {
   color: #000000;
 }
 
-.donasiPage .donasi .nominal .nominal-lainnya{
+.donasiPage .donasi .nominal .nominal-lainnya {
   margin-top: 10px;
 }
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya{
 
-}
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya {}
 
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .form-text{
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .form-text {
   font-size: 18px;
   font-weight: 400;
   color: #000000;
   margin-left: 100px;
 }
 
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .form-control{
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .form-control {
   border-radius: 8px;
   border: 2px solid #cccccc;
   padding: 10px;
@@ -1930,16 +2008,16 @@ background-position: center -30px;
   width: 920px;
 }
 
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .pilih-pembayaran{
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .pilih-pembayaran {
   display: flex;
   justify-content: space-between;
 }
 
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .pilih-pembayaran .dropdown-pilihpembayaran{
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .pilih-pembayaran .dropdown-pilihpembayaran {
   margin-right: 100px;
 }
 
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .text-form .text-data{
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .text-form .text-data {
   color: #000000;
   display: flex;
   justify-content: center;
@@ -1951,27 +2029,27 @@ background-position: center -30px;
   display: inline-block;
 }
 
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .text-form .nama .nama__form{
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .text-form .nama .nama__form {
   display: flex;
   justify-content: space-between;
 }
 
 .donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .text-form .nama .form-nama1,
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .text-form .nama .form-nama2{
-font-size: 18px;
-font-weight: 400;
-color: #000000;
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .text-form .nama .form-nama2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
 }
 
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .form-text-area .textarea{
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .form-text-area .textarea {
   margin-left: 100px;
 }
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .button-form{
-display: flex;
-justify-content: center;
+
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .button-form {
+  display: flex;
+  justify-content: center;
 }
-.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .button-form .buton-formnominal{
+
+.donasiPage .donasi .nominal .nominal-lainnya .form-nominal-lainnya .button-form .buton-formnominal {
   border-radius: 100px;
 }
-
-
